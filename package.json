@@ -1,0 +1,25 @@
+{
+  "name": "bun",
+  "private": true,
+  "description": "Modern TypeScript repo powered by Bun",
+  "homepage": "https://github.com/vprianikov/bun#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vprianikov/bun.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": {
+    "name": "Vasilii Prianikov",
+    "email": "88191516+vprianikov@users.noreply.github.com"
+  },
+  "type": "module",
+  "scripts": {
+    "repo:clean": "git clean -Xdf && rm -f bun.lock && bun install"
+  },
+  "devDependencies": {
+    "@types/bun": "^1"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}

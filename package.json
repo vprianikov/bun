@@ -18,6 +18,8 @@
     "repo:clean": "git clean -Xdf && rm -f bun.lock && bun install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^21",
+    "@commitlint/config-conventional": "^21",
     "@types/bun": "^1",
     "lefthook": "^2"
   },

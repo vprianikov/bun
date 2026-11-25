@@ -1,0 +1,9 @@
+{
+  "pre-commit": {
+    "jobs": [
+      {
+        "run": "bun install --frozen-lockfile --ignore-scripts"
+      }
+    ]
+  }
+}

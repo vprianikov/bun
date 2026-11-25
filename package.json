@@ -14,12 +14,17 @@
   },
   "type": "module",
   "scripts": {
+    "repo:check": "bun run lefthook run pre-commit --force",
     "repo:clean": "git clean -Xdf && rm -f bun.lock && bun install"
   },
   "devDependencies": {
-    "@types/bun": "^1"
+    "@types/bun": "^1",
+    "lefthook": "^2"
   },
   "peerDependencies": {
     "typescript": "^7"
-  }
+  },
+  "trustedDependencies": [
+    "lefthook"
+  ]
 }
